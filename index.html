@@ -16,7 +16,6 @@
         .about{
             text-align: left;
             padding-top: 0px;
-            color: black;
             flex: 1;
             margin-right: 10px;     
         }
@@ -34,7 +33,26 @@
             margin-right: 14px;
         }
         a:link{
-            text-decoration: none;   
+            text-decoration: none; 
+            color: black;  
+        }
+        #fire1{
+            color: #5f6368;
+        }
+        #fire2{
+            color: #5f6368;
+        }
+        #fire3{
+            color: #5f6368;
+        }
+        #fire4{
+            color: #5f6368;
+        }
+        #fire5{
+            color: #5f6368;
+        }
+        #fire6{
+            color: #5f6368;
         }
         .grid{
             flex: 5;
@@ -71,82 +89,78 @@
         }
         #button2{
             color: rgb(88,88,88);
-
             padding: 0;
             border: none;
             background: none;
         }
-        .bottom{
-            margin-top: 257px;
-            margin-left: -8px;
-            margin-right:-8px;
-            margin-bottom: -10px;
+        .bottomdiv{
             border: 0.00001px solid rgb(88,88,88);
             background-color:rgb(231, 231, 231 );
             height:45px;
+            margin-top: 257px;
+        }
+        .bottom{
+            margin-top:-45px;
+            margin-left: -8px;
+            margin-right:-8px;
+            margin-bottom: -10px;
             display: flex;
             color: #5f6368;
-            font-size: 14px;
-            
+            font-size: 14px;       
         }
         .advertising{
-            flex: 1;
+           flex: 1;
             margin-top: 10px;
-            margin-left: 27px;
-            
+            margin-left: 27px;  
         }
         .business{
             flex: 2;
-            margin-left: 27px;
+            margin-left: 10px;
             margin-top: 10px;
-            
         }
         .undersearch1{
             flex: 3;
             margin-top: 10px;
-            margin-left: -45px;
-            
+            margin-right:200px;
+            min-width: 200px;
+            margin-left:17px;
         }
         .privacy{
             flex: 4;
             margin-top: 10px;
-            
-        
+            margin-left: 650px;
         }
         .terms{
             flex: 5;
             margin-top: 10px;
-            
+            margin-left: 10px;
         }
         .setting{
             flex: 6;
             margin-top: 10px;
-            
+            margin-left: -10px;
         }
     </style>
     <head>
         <title>
-            google homepage
+            Google homepage
         </title>
     </head>
     <body>
         <div class="main">
         <div class= "info">
-        <div class="about"><a href="https://www.google.com" >About</a></div>
-        <div class="store">Store</div>
-        <div class='gmail'> Gmail</div>
-        <div class='images'>Images</div>
+        <div class="about"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" >About</a></div>
+        <div class="store"><a href ="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></div>
+        <div class='gmail'> <a href="https://www.google.com/gmail/about/#">Gmail</a></div>
+        <div class='images'><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></div>
         <div class="grid" > <img src="googlegrid.png" alt="google buttom grid" ></div>
-        <div class="sign"> <img src="signingoogle.png" alt="sign in buttom"></div>
+        <div class="sign"> <a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="signingoogle.png" alt="sign in buttom"></a></div>
         </div>
-        
-        
-        
+
         <div class="logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
          </div>
-    
-    
+
         <div class="rectangle"> <img  id ="searchbutton" src="searchbutton.png"alt="search button image">
         </div>
 
@@ -155,15 +169,22 @@
              <button id="button2"> Feeling Lucky</button>
         </div>
 
+        <div class="bottomdiv">      
+        </div>
+
         <div class="bottom">
-            <div class="advertising">Advertising</div>
-            <div class="business">Business</div>
-            <div class="undersearch1"> How Search Works</div>
-            <div class="privacy"> Privacy</div>
-            <div class="terms">Terms</div>
-            <div class="setting">Settings</div>
+            
+            <div class="advertising"><a id="fire1"href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000032-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></div>
+            <div class="business"><a id="fire2"href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></div>
+            <div class="undersearch1"> <a id="fire3"href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></div>
+            <div class="privacy"><a id="fire4" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a> </div>
+            <div class="terms"><a id="fire5"href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></div>
+            <div class="setting"><a id="fire6"href="https://www.google.com/preferences?hl=en&fg=1">Settings</a></div>
 
         </div>
+
     </div>
+
     </body>
+    
 </html>
